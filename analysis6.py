@@ -1,0 +1,7 @@
+plt.figure(figsize=(10, 6))
+sns.heatmap(cat_food_stats['Yenilen Mama Miktari'], annot=True, fmt=".2f", cmap="YlOrRd")
+plt.title('Kedilerin Yenilen Mama Miktarları (Gram)')
+plt.xlabel('Mama Türü')
+plt.ylabel('Kedi')
+plt.savefig('yenilen_mama_miktarlari_gram.png')
+plt.show()

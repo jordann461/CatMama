@@ -1,0 +1,7 @@
+plt.figure(figsize=(10, 6))
+sns.countplot(data=df, x='Mama', hue='Kedi Cinsi', palette='viridis')
+plt.title('Mama Tercihlerine Göre Kedi Cins Dağılımı')
+plt.xlabel('Mama Türü')
+plt.ylabel('Sayı')
+plt.legend(title='Kedi Cinsi')
+plt.show()
